@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; 
+  padding: 0;
+
+}
+
+.image{maxwidth: 100%; maxheight: 100%; width: 100%; height: 100%;}
+.text{font-size: 48px; text-align: center;}
+.zetext{color: green;}
+.bottomtext{font-size: 24px;  text-align: center;}
+
+
+.flex-container {
+display: flex;
+background-color: blue;
+  flex-wrap: wrap;
+  height: 90%;
+  width: 60%;
+}
+
+
+#sidebar {
+     background: #40E0D0;
+     width: 25%;
+     height: 65%;
+}
+
+
+#content {
+     background: #add8e6;
+     width: 75%;
+     height: 65%;
+}
+
+#imagefooter {
+    background: #ebd8d4;
+	width: 100%;
+	height: 20%;
+}
+
+#footer {
+    background: #ebd8d4;
+	width: 100%;
+	height: 15%;
+}
